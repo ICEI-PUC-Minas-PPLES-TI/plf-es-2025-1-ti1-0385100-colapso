@@ -2,11 +2,11 @@
 
 Informações básicas do projeto.
 
-* **Projeto:** [NOME DO PROJETO]
-* **Repositório GitHub:** [LINK PARA O REPOSITÓRIO NO GITHUB]
+* **Projeto:** colapso
+* **Repositório GitHub:** [\[LINK PARA O REPOSITÓRIO NO GITHUB\]](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2025-1-ti1-0385100-colapso)
 * **Membros da equipe:**
 
-  * [Fulano](https://github.com/fulano) ⚠️ EXEMPLO ⚠️
+  * [Caio Viera da Costa Leal](https://github.com/cronos-caio-vieira) 
   * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
   * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
 
