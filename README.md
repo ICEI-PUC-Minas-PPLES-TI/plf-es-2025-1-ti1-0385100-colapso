@@ -7,8 +7,8 @@ O objetivo do meu projeto é entender melhor a precariedade nas escolas pública
 ## Alunos integrantes da equipe
 
 * Caio Vieira da Costa Leal
-* Nome completo do aluno 2
-* Nome completo do aluno 3
+* Guilherme Henrique Costa Alves
+* matheus neves fortini duarte
 * Nome completo do aluno 4
 
 ## Professores responsáveis
@@ -20,5 +20,4 @@ O objetivo do meu projeto é entender melhor a precariedade nas escolas pública
 
 
 
-* [Sintaxe básica de gravação e formatação no GitHub - GitHub Docs](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* [Markdown® Básico: Sintaxe, Uso &amp; Exemplos [Passo a Passo]](https://markdown.net.br/sintaxe-basica/)
+
