@@ -127,86 +127,319 @@ Que tipo de suporte ou recurso você acha que poderia te ajudar a superar essas 
 
 ### Personas
 
-**✳️✳️✳️ APRESENTE OS DIAGRAMAS DE PERSONAS ✳️✳️✳️**
+**João – Aluno do Ensino Fundamental 
+Quem é ele?
+João é um menino curioso e cheio de sonhos. Ele estuda numa escola pública que tá bem caída — falta livro, a lousa vive quebrada e quase não tem atividade diferente pra fazer.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
->
-> **Orientações**:
->
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+Mapa de Empatia:
+
+Pensa e sente: Quer aprender e ter um futuro melhor, mas sente que a escola não ajuda muito.
+
+Vê: Salas lotadas, professores cansados e pouca coisa funcionando direito.
+
+Ouve: A família sempre fala que estudar é importante, mas também reclama da escola.
+
+Fala e faz: Conversa com os amigos sobre os sonhos e as dificuldades. Às vezes fica desanimado.
+
+Dores: Se sente desmotivado, falta apoio e oportunidades.
+
+Necessidades: Uma escola mais legal, materiais novos e mais atividades que animem.
+
+2. Izabella – Professora de Língua Portuguesa 
+Quem é ela?
+Izabella ama ensinar, mas a realidade é puxada. Ela dá aula com poucos recursos, em salas cheias, e ainda precisa se virar nos 30 pra fazer a aula acontecer.
+
+Mapa de Empatia:
+
+Pensa e sente: Quer fazer a diferença na vida dos alunos, mas muitas vezes bate aquele desânimo.
+
+Vê: Escola quebrada, biblioteca velha, pouco material pra usar.
+
+Ouve: Escuta as reclamações dos alunos e dos outros professores.
+
+Fala e faz: Incentiva os alunos a seguir em frente e sempre tenta dar um jeito nas dificuldades.
+
+Dores: Falta de apoio, salário baixo, muito trabalho pra pouca estrutura.
+
+Necessidades: Uma escola mais organizada, apoio pra continuar se atualizando e ser mais reconhecida.
+
+3. Carlos – Diretor da Escola 
+Quem é ele?
+Carlos é diretor há bastante tempo e já viu de tudo. Ele tenta de todo jeito melhorar a escola, mas sempre esbarra na falta de dinheiro e na burocracia.
+
+Mapa de Empatia:
+
+Pensa e sente: Quer que a escola seja melhor pra todo mundo, mas se preocupa porque falta quase tudo.
+
+Vê: Estrutura velha, pouca grana e problemas que só aumentam.
+
+Ouve: Pais, alunos e professores reclamando (com razão) que nada muda rápido.
+
+Fala e faz: Corre atrás de ajuda, faz parcerias e tenta manter todo mundo animado.
+
+Dores: Não consegue fazer tudo que queria, falta recurso, muito papel pra pouca ação.
+
+Necessidades: Mais dinheiro na mão, menos burocracia e mais liberdade pra resolver os problemas da escola.**
+
 
 # Product Design
+Principais Insights
+João quer uma escola que motive ele a aprender.
 
-Nesse momento, vamos transformar os insights e validações obtidos em soluções tangíveis e utilizáveis. Essa fase envolve a definição de uma proposta de valor, detalhando a prioridade de cada ideia e a consequente criação de wireframes, mockups e protótipos de alta fidelidade, que detalham a interface e a experiência do usuário.
+Izabella precisa de mais recursos e apoio para dar aulas melhores.
 
+Carlos precisa de menos burocracia e mais autonomia pra mudar a escola.
+
+"Transformar a escola pública em um espaço acolhedor, inovador e eficiente, onde alunos, professores e gestores tenham suporte e ferramentas para desenvolver seu melhor."
+
+Ou, de um jeito mais direto:
+
+"Uma escola viva, que ensina, apoia e transforma vidas."
+
+Prioridade	Ideia	Para quem?	Por quê?
+🔥 Alta, Plataforma de apoio pedagógico com materiais digitais atualizados,	Izabella	,Ajuda a dar aulas melhores mesmo com poucos recursos.
+🔥 Alta,	Aplicativo de comunicação fácil entre alunos, professores e direção	João, Izabella e Carlos,	Facilita troca de informações rápidas e reduz ruído.
+🔥 Alta,	Portal de gestão escolar simplificado (menos papelada),	Carlos,	Dá mais agilidade para o diretor resolver problemas.
+🟡 Média,	Biblioteca online com livros e atividades gamificadas,	João,	Motiva o aluno a estudar fora da sala de aula.
+
+(Imagine isso como um rascunho simples da carinha dos projetos)
+
+Home da Plataforma
+
+Logo da escola
+
+Menu: "Aulas", "Biblioteca", "Comunicação", "Administração"
+
+Área de notícias (informes para alunos e pais)
+
+Tela de Aulas
+
+Listagem de matérias
+
+Vídeos curtos e apostilas para baixar
+
+Exercícios online com correção automática
+
+Tela de Comunicação
+
+Chat para dúvidas rápidas entre aluno-professor
+
+Mensagens da direção para a comunidade
+
+Tela do Diretor (Administração)
+
+Painel de controle fácil: ver pedidos de manutenção, acompanhar notas, relatórios de turma.
 ## Histórias de Usuários
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-| EU COMO...`PERSONA` | QUERO/PRECISO ...`FUNCIONALIDADE`        | PARA ...`MOTIVO/VALOR`               |
-| --------------------- | ------------------------------------------ | -------------------------------------- |
-| Usuário do sistema   | Registrar minhas tarefas ⚠️ EXEMPLO ⚠️ | Não esquecer de fazê-las             |
-| Administrador         | Alterar permissões ⚠️ EXEMPLO ⚠️      | Permitir que possam administrar contas |
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
->
-> **Orientações**:
->
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+João (Aluno)
+
+Eu como aluno quero acessar materiais e atividades online para aprender de forma mais fácil e divertida.
+
+João (Aluno)
+
+Eu como aluno quero enviar dúvidas diretamente para os professores para receber ajuda rápida e não ficar perdido.
+
+Izabella (Professora)
+
+Eu como professora quero baixar conteúdos prontos para usar em aula para economizar tempo e melhorar as aulas.
+
+Izabella (Professora)
+
+Eu como professora quero compartilhar atividades com os alunos pela plataforma para organizar melhor o conteúdo que ensino.
+
+Carlos (Diretor)
+
+Eu como diretor quero gerenciar comunicados para alunos, pais e professores para melhorar a comunicação da escola.
+
+Carlos (Diretor)
+
+Eu como diretor quero acompanhar o desempenho dos alunos e professores para ter informações e tomar decisões mais rápidas.
+
+João (Aluno)
+
+Eu como aluno quero receber notificações de tarefas e eventos escolares para não perder prazos importantes.
+
+Izabella (Professora)
+
+Eu como professora quero participar de cursos de capacitação dentro da plataforma para continuar aprendendo e me atualizando.
+
+Carlos (Diretor)
+
+Eu como diretor quero solicitar manutenção de equipamentos pela plataforma para resolver problemas estruturais mais rápido.
+
+
 
 ## Proposta de Valor
 
-**✳️✳️✳️ APRESENTE O DIAGRAMA DA PROPOSTA DE VALOR PARA CADA PERSONA ✳️✳️✳️**
+**Tarefas
 
-##### Proposta para Persona XPTO ⚠️ EXEMPLO ⚠️
+Estudar de maneira mais interessante e fácil.
 
-![Exemplo de proposta de valor](images/exemplo-proposta-valor.png)
+Tirar dúvidas rapidamente.
+
+Cumprir prazos de tarefas e provas.
+
+Dores
+
+Falta de material didático bom.
+
+Dificuldade para acompanhar o conteúdo.
+
+Falta de apoio na hora de estudar sozinho.
+
+Ganhos
+
+Aprender com recursos digitais.
+
+Ter apoio rápido dos professores.
+
+Receber lembretes para não se esquecer das atividades.
+
+Proposta de Valor
+
+Plataforma digital com materiais interativos, chat para dúvidas e sistema de notificações de prazos.**
+
+
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
-> O mapa da proposta de valor é uma ferramenta que nos ajuda a definir qual tipo de produto ou serviço melhor atende às personas definidas anteriormente.
+> Tarefas
+
+Estudar e acompanhar os conteúdos.
+
+Esclarecer dúvidas.
+
+Organizar suas atividades escolares.
+
+Dores
+
+Falta de material interessante.
+
+Dificuldade em receber suporte rápido.
+
+Esquecimento de prazos.
+
+Ganhos
+
+Plataforma com materiais digitais interativos.
+
+Chat para tirar dúvidas direto com o professor.
+
+Sistema de lembretes para tarefas e eventos.
+
+Solução para João:
+Uma plataforma educacional que ofereça materiais de estudo fáceis e divertidos, atendimento rápido para dúvidas e lembretes automáticos para organizar o dia a dia.
+
+👩‍🏫 Izabella (Professora)
+Tarefas
+
+Preparar boas aulas.
+
+Compartilhar conteúdos e atividades.
+
+Se capacitar profissionalmente.
+
+Dores
+
+Falta de tempo para planejar.
+
+Poucos recursos para aplicar atividades.
+
+Dificuldade de acesso a cursos de formação.
+
+Ganhos
+
+Banco de atividades e planos de aula prontos.
+
+Plataforma para distribuir conteúdos diretamente aos alunos.
+
+Ofertas de cursos online para desenvolvimento profissional.
+
+Solução para Izabella:
+Uma ferramenta que facilite o preparo das aulas, permita o envio fácil de materiais e disponibilize cursos de capacitação para professores.
+
+🧑‍💼 Carlos (Diretor)
+Tarefas
+
+Coordenar a comunicação da escola.
+
+Monitorar o desempenho de alunos e professores.
+
+Solicitar e acompanhar manutenção da infraestrutura.
+
+Dores
+
+Comunicação desorganizada.
+
+Falta de dados atualizados para decisões.
+
+Burocracia para resolver problemas.
+
+Ganhos
+
+Painel de comunicação escolar.
+
+Relatórios de desempenho em tempo real.
+
+Sistema rápido de solicitação de manutenção.
+
+Solução para Carlos:
+Um painel de gestão escolar que facilite a comunicação, forneça relatórios atualizados e permita solicitações de manutenção de forma rápida e prática.
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+RF01 - Cadastro de Usuários:
+Permitir que alunos, professores e diretores se cadastrem e façam login.
 
-### Requisitos Funcionais
+RF02 - Acesso a Materiais:
+Permitir que alunos acessem conteúdos digitais e atividades.
 
-| ID     | Descrição do Requisito                                   | Prioridade |
-| ------ | ---------------------------------------------------------- | ---------- |
-| RF-001 | Permitir que o usuário cadastre tarefas ⚠️ EXEMPLO ⚠️ | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês ⚠️ EXEMPLO ⚠️ | MÉDIA     |
+RF03 - Chat de Dúvidas:
+Permitir que alunos enviem dúvidas para os professores.
 
-### Requisitos não Funcionais
+RF04 - Gerenciamento de Aulas:
+Permitir que professores organizem e compartilhem atividades e planos de aula.
 
-| ID      | Descrição do Requisito                                                              | Prioridade |
-| ------- | ------------------------------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel ⚠️ EXEMPLO ⚠️ | MÉDIA     |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s ⚠️ EXEMPLO ⚠️          | BAIXA      |
+RF05 - Notificações:
+Enviar lembretes automáticos para prazos de tarefas e eventos escolares.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Os requisitos de um projeto são classificados em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
->
-> **Orientações**:
->
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+RF06 - Comunicação Escolar:
+Permitir que a escola envie comunicados para alunos, pais e professores.
+
+RF07 - Monitoramento de Desempenho:
+Gerar relatórios de desempenho de alunos e professores para a direção.
+
+RF08 - Solicitação de Manutenção:
+Diretores podem abrir solicitações de manutenção para problemas na escola.
+
+RF09 - Plataforma de Capacitação:
+Oferecer cursos online para capacitação de professores.
+
+Requisitos Não Funcionais
+RNF01 - Usabilidade:
+A plataforma deve ser fácil de usar, mesmo para quem tem pouca experiência com tecnologia.
+
+RNF02 - Acessibilidade:
+O sistema deve ser acessível para pessoas com deficiência.
+
+RNF03 - Desempenho:
+As páginas devem carregar em até 3 segundos.
+
+RNF04 - Segurança:
+Dados dos usuários (como informações pessoais e notas) devem ser protegidos.
+
+RNF05 - Compatibilidade:
+A plataforma deve funcionar bem em computadores, tablets e celulares.
+
+RNF06 - Disponibilidade:
+O sistema deve estar disponível 99% do tempo.
+
+RNF07 - Manutenção:
+O sistema deve permitir atualizações sem grandes interrupções.
+
 
 ## Projeto de Interface
 
@@ -214,26 +447,9 @@ Artefatos relacionados com a interface e a interacão do usuário na proposta de
 
 ### Wireframes
 
-Estes são os protótipos de telas do sistema.
 
-**✳️✳️✳️ COLOQUE AQUI OS PROTÓTIPOS DE TELAS COM TÍTULO E DESCRIÇÃO ✳️✳️✳️**
+** files/Precariedade-em-escola-pública.pdf **
 
-##### TELA XPTO ⚠️ EXEMPLO ⚠️
-
-Descrição para a tela XPTO
-
-![Exemplo de wireframe](images/exemplo-wireframe.png)
-
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante ao layout de elementos fundamentais na interface.
->
-> **Orientações**:
->
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
 
 ### User Flow
 
@@ -241,15 +457,6 @@ Descrição para a tela XPTO
 
 ![Exemplo de fluxo de telas](images/exemplo-userflow.png)
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
->
-> **Orientações**:
->
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools &amp; Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 ### Protótipo Interativo
 
