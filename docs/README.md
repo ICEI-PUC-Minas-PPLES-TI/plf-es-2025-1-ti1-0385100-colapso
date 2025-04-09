@@ -7,8 +7,12 @@ Informações básicas do projeto.
 * **Membros da equipe:**
 
   * [Caio Viera da Costa Leal](https://github.com/cronos-caio-vieira) 
-  * [Beltrano](https://github.com/beltrano) ⚠️ EXEMPLO ⚠️
-  * [Cicrano](https://github.com/cicrano) ⚠️ EXEMPLO ⚠️
+  * Mateus neves
+  * Diego Albergaria 
+  * Guilherme Henrique
+  * Gabriel Roxa
+  * ilan 
+
 
 A documentação do projeto é estruturada da seguinte forma:
 
@@ -53,11 +57,8 @@ Garantir que o site seja leve, fácil de usar e funcione bem em diferentes dispo
 **Importância e Motivação
 A ideia de fazer esse site surgiu porque muitos alunos de escolas públicas têm dificuldade para acompanhar o que precisam estudar, as tarefas e as notas. Sem organização, fica mais difícil aprender e se dar bem na escola. Um site simples, onde o aluno consiga ver tudo isso fácil, pode ajudar bastante no dia a dia.
 
-Escolhi focar na agenda, nas matérias e nas notas porque são coisas que todo aluno precisa saber pra se organizar melhor. Assim, o site vai facilitar a vida deles e ainda ajudar a melhorar o desempenho na escola.
+Escolhi focar na agenda, nas matérias e nas notas porque são coisas que todo aluno precisa saber pra se organizar melhor. Assim, o site vai facilitar a vida deles e ainda ajudar a melhorar o desempenho na escola.**
 
-**
-
-> 
 
 ## Público-Alvo
 
@@ -75,16 +76,52 @@ Vai usar o site pra dar uma olhada geral nas turmas e nos alunos. Costuma trabal
 
 ## Etapa de Entendimento
 
-**✳️✳️✳️ APRESENTE OS ARTEFATOS DA ETAPA  ✳️✳️✳️**
+**Certezas:
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nessa etapa, vamos trabalhar com a metdologia de Design Thinking para compreender com maior profundidade o problema a ser tratado. Nesse processo, vamos elaborar:
->
-> * **Matriz CSD**: também conhecida por Matriz de Alinhamento, é uma ferramenta utilizada no Design Thinking para organizar informações e facilitar o processo de tomada de decisão e solução de problemas;
-> * **Mapa de stakeholders**: ferramenta que nos permite compreender o grupo de pessoas e entidades que devemos estudar e conversar para entender mais sobre o problema
-> * **Entrevistas qualitativas**: série de entrevistas qualitativas para validar suposições e solucionar as dúvidas com as principais pessoas envolvidas;
-> * **Highlights de pesquisa**: um compilado do levantamento realizado por meio das entrevistas.
+Alunos têm dificuldade de se organizar sem um lugar para ver matérias e notas.
+
+Professores e diretores já usam celular e computador na rotina.
+
+Muitas escolas públicas têm pouco investimento em tecnologia.
+
+Suposições:
+
+Um site simples pode ajudar bastante na organização escolar.
+
+A agenda online vai melhorar a comunicação entre escola e aluno.
+
+Alunos vão usar o site se ele for fácil e rápido.
+
+Dúvidas:
+
+Todos os alunos vão conseguir acessar o site facilmente?
+
+Os professores vão ter tempo para atualizar o site?
+
+A internet da escola e dos alunos é boa o suficiente?
+
+Principais envolvidos:
+Aluno = vai usar o site para ver matérias, tarefas e notas.
+
+Professor = vai atualizar conteúdos como matérias e atividades.
+
+Diretora = vai acompanhar o andamento geral da escola no site.
+
+Perguntas para Alunos:
+
+Quais são as maiores dificuldades que você enfrenta na escola atualmente?
+
+Como essas dificuldades afetam seu desempenho e sua motivação para estudar?
+
+O que te ajuda a aprender melhor, mesmo com essas dificuldades?
+
+Se pudesse mudar algo na sua rotina de estudos, o que mudaria?
+
+Qual é o seu maior medo em relação ao futuro e sua educação?
+
+Que tipo de suporte ou recurso você acha que poderia te ajudar a superar essas dificuldades?
+
+**
 
 ## Etapa de Definição
 
