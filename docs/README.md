@@ -3,7 +3,7 @@
 Informações básicas do projeto.
 
 * **Projeto:** colapso
-* **Repositório GitHub:** [\[LINK PARA O REPOSITÓRIO NO GITHUB\]](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2025-1-ti1-0385100-colapso)
+* **Repositório GitHub:** (https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2025-1-ti1-0385100-colapso)
 * **Membros da equipe:**
 
   * [Caio Viera da Costa Leal](https://github.com/cronos-caio-vieira) 
@@ -28,58 +28,48 @@ Detalhes sobre o espaço de problema, os objetivos do projeto, sua justificativa
 
 ## Problema
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+**Problema
+Muitos alunos de escolas públicas têm dificuldade para se organizar nos estudos, seja para acompanhar as matérias, saber a agenda escolar ou acompanhar suas notas. A falta de acesso a essas informações de forma simples e rápida acaba atrapalhando o desempenho dos estudantes.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
->
-> **Orientações**:
->
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Contexto
+O projeto será um site feito para ajudar alunos a se organizarem melhor. Nele, eles poderão ver suas agendas, matérias, notas e outras informações importantes. A aplicação será pensada para ser simples, leve e de fácil acesso, usando tecnologias básicas como HTML, CSS e JavaScript, para funcionar bem em qualquer dispositivo.**
 
 ## Objetivos
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+**Objetivo Geral
+Desenvolver um site que ajude alunos de escolas públicas a se organizarem melhor, oferecendo acesso fácil à agenda escolar, matérias e notas.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
->
-> **Orientações**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Objetivos Específicos
+
+Criar uma área onde cada aluno possa visualizar sua agenda de aulas e atividades.
+
+Desenvolver um sistema simples para que os alunos acompanhem suas matérias, notas e pendências escolares.
+
+Garantir que o site seja leve, fácil de usar e funcione bem em diferentes dispositivos, como celulares e computadores.**
+
 
 ## Justificativa
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+**Importância e Motivação
+A ideia de fazer esse site surgiu porque muitos alunos de escolas públicas têm dificuldade para acompanhar o que precisam estudar, as tarefas e as notas. Sem organização, fica mais difícil aprender e se dar bem na escola. Um site simples, onde o aluno consiga ver tudo isso fácil, pode ajudar bastante no dia a dia.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
->
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Orientações**:
->
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Escolhi focar na agenda, nas matérias e nas notas porque são coisas que todo aluno precisa saber pra se organizar melhor. Assim, o site vai facilitar a vida deles e ainda ajudar a melhorar o desempenho na escola.
+
+**
+
+> 
 
 ## Público-Alvo
 
-**✳️✳️✳️ COLOQUE AQUI O SEU TEXTO ✳️✳️✳️**
+**Aluno
+É quem mais vai usar o site. Normalmente é jovem e está no Ensino Fundamental ou Médio. A maioria usa bastante o celular, mas nem sempre tem muita experiência com outros tipos de tecnologia. Vai entrar no site pra ver as matérias, as tarefas, a agenda e as notas.
 
-> ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
->
-> Descreva quais são as pessoas que usarão a sua aplicação indicando os diferentes perfis. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
->
-> **Orientações**:
->
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Professor
+Vai usar o site pra colocar as matérias, as atividades e atualizar as informações dos alunos. Sabe o básico de tecnologia e já usa computador e celular no dia a dia. Precisa de um sistema simples e rápido pra não perder tempo.
+
+Diretora
+Vai usar o site pra dar uma olhada geral nas turmas e nos alunos. Costuma trabalhar mais com a parte administrativa da escola e usa e-mail e planilhas. Prefere que o site seja bem organizado e fácil de mexer.**
+
 
 # Product Discovery
 
