@@ -9,7 +9,7 @@ O objetivo do meu projeto é entender melhor a precariedade nas escolas pública
 * Caio Vieira da Costa Leal
 * Guilherme Henrique Costa Alves
 * matheus neves fortini duarte
-* Nome completo do aluno 4
+* Diego Albergaria Ferreira Araujo
 
 ## Professores responsáveis
 
