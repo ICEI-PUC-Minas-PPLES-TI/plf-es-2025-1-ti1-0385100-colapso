@@ -10,7 +10,7 @@ Informações básicas do projeto.
   * Mateus neves
   * Diego Albergaria 
   * Guilherme Henrique
-  * Gabriel Roxa
+  * Gabriel Lucas de Almeida Rocha
   * ilan 
 
 
