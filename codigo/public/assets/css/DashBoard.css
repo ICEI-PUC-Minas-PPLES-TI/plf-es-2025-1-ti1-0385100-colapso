@@ -114,3 +114,71 @@ button.complete-btn:disabled {
     cursor: default;
     box-shadow: none;
 }
+
+.grades-section {
+    margin-top: 30px;
+    overflow-x: auto;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    background: #fff5f5;
+    border: 2px solid #b30000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(179, 0, 0, 0.15);
+}
+
+.grades-table th,
+.grades-table td {
+    padding: 12px 16px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.grades-table th {
+    background-color: #b30000;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.grades-table tr:last-child td {
+    border-bottom: none;
+}
+
+.grades-section {
+    margin-top: 30px;
+    overflow-x: auto;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    background: #fff5f5;
+    border: 2px solid #b30000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(179, 0, 0, 0.15);
+}
+
+.grades-table th,
+.grades-table td {
+    padding: 12px 16px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.grades-table th {
+    background-color: #b30000;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.grades-table tr:last-child td {
+    border-bottom: none;
+}
