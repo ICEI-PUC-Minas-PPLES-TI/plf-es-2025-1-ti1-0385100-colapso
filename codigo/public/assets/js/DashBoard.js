@@ -37,3 +37,32 @@ function renderTasks() {
 }
 
 renderTasks();
+
+const ctx = document.getElementById('gradesChart').getContext('2d');
+const gradesChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['Matemática', 'Português', 'História', 'Biologia'],
+        datasets: [{
+            label: 'Notas',
+            data: [8.5, 7.2, 9.0, 6.8],
+            backgroundColor: '#b30000',
+            borderColor: '#800000',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 10
+            }
+        },
+        plugins: {
+            legend: {
+                display: false
+            }
+        }
+    }
+});
