@@ -1,56 +1,247 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"); 
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-h3 {
-    color: #093070;
-    border-bottom: 1px solid #c1c1c1;
-}
-h4 {
-    color: #ff7645;
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.banner img {
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-icon .fas.fa-user-circle {
+    font-size: 30px;
+    color: #333;
+}
+
+.header-menu .fas.fa-bars {
+    font-size: 24px;
+    color: #333;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.materias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.materia-card {
+    background-color: #fff;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    overflow: hidden;
+   
+}
+
+.materia-card img {
+    width: 100%;
+    height: 90px; 
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.materia-info {
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.materia-info .materia-nome {
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    color: #333;
+    font-size: 16px;
+    
+
+}
+
+.materia-info .materia-turma {
+    margin: 0; 
+    color: #666;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #c70000;
+    padding: 15px 0;
     width: 100%;
 }
 
-.barra-info {
-    height: 2em;
-    background-color: #f0f0f0;
+.footer-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu li {
-    display: inline;
-    margin: 0px;
-    padding: 0.5em 1em; 
-    height: 2em;
-    line-height: 2em;
-}
-
-.menu li a {
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-decoration: none;
-    color: #ff7645;
-    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    flex: 1;
 }
 
-.menu li:hover {
-    background-color: darkblue;
-    color: white;
+.nav-item.active {
+    color: #fff;
 }
 
-.dados-usuario {
-    height: 2em;
-    line-height: 2em;
-    margin-right: 20px;
+.nav-item .fas {
+    font-size: 22px;
+    margin-bottom: 5px;
 }
 
-main {
-    padding: 20px;
+
+@media (max-width: 600px) {
+    .content {
+        padding: 15px;
+    }
+
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .content h2 {
+        font-size: 20px;
+    }
+
+    .materias-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .materia-card {
+        min-height: auto; 
+    }
+
+    .materia-card img {
+        height: 80px; 
+    }
+
+    .materia-info {
+        padding: 8px 10px;
+    }
+
+    .materia-info .materia-nome {
+        font-size: 15px;
+    }
+
+    .materia-info .materia-turma {
+        font-size: 13px;
+    }
+
+    .nav-item {
+        font-size: 12px;
+    }
+
+    .nav-item .fas {
+        font-size: 20px;
+    }
+
+    .header {
+        padding: 10px 15px;
+    }
+
+    .header-icon .fas.fa-user-circle {
+        font-size: 28px;
+    }
+
+    .header-menu .fas.fa-bars {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 375px) {
+    .content {
+        padding: 10px;
+    }
+
+    .content h1 {
+        font-size: 22px;
+    }
+
+    .content p {
+        font-size: 15px;
+    }
+
+    .content h2 {
+        font-size: 18px;
+    }
+
+    .materia-card img {
+        height: 60px; 
+    }
+
+    .materia-info {
+        padding: 5px 8px;
+    }
+
+    .materia-info .materia-nome {
+        font-size: 14px;
+    }
+
+    .materia-info .materia-turma {
+        font-size: 12px;
+    }
+
+    .nav-item {
+        font-size: 11px;
+    }
+
+    .nav-item .fas {
+        font-size: 18px;
+    }
 }
