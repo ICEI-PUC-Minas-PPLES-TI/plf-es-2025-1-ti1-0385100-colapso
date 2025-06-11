@@ -6,10 +6,10 @@ O objetivo do meu projeto é entender melhor a precariedade nas escolas pública
 
 ## Alunos integrantes da equipe
 
-* Caio Vieira da Costa Leal
+* Ilan Cohen Bouissou Santana
 * Guilherme Henrique Costa Alves
-* matheus neves fortini duarte
 * Diego Albergaria Ferreira Araujo
+* Gabriel Lucas de Almeida Rocha
 
 ## Professores responsáveis
 
