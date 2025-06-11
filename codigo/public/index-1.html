@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Gamificação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loginScreen" class="center">
+        <h1>Bem-vindo!</h1>
+        <input type="text" id="username" placeholder="Digite seu nome">
+        <button onclick="login()">Entrar</button>
+    </div>
+
+    <div id="dashboard" class="center" style="display:none;">
+        <h2>Olá, <span id="displayName"></span>!</h2>
+        <p>Pontos: <span id="points">0</span></p>
+        <p>Nível: <span id="level">1</span></p>
+        <p>Medalhas: <span id="badges"></span></p>
+
+        <button onclick="addPoints()">Fazer Missão (+10 pontos)</button>
+        <button onclick="reset()">Sair</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
