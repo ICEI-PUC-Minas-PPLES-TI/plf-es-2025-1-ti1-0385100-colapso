@@ -14,40 +14,48 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 40px 40px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header-icon .fas.fa-user-circle {
-    font-size: 30px;
+    font-size: 50px;
     color: #333;
 }
 
 .header-menu .fas.fa-bars {
-    font-size: 24px;
+    font-size: 34px;
     color: #333;
 }
 
 .content {
     flex-grow: 1;
-    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 80px auto;
+    padding: 0 0;
+    text-align: left;
 }
 
 .content h1 {
-    font-size: 28px;
-    margin-bottom: 5px;
+    font-size: 30px;
+    margin: 0 0 25px 0;
     color: #333;
+    line-height: 1.2;
+    white-space: normal;
 }
 
 .content p {
-    font-size: 18px;
+    font-size: 25px;
     color: #666;
-    margin-bottom: 30px;
+    margin: 0 0 20px 0;
+    line-height: 1.4;
+    white-space: normal;
 }
 
 .content h2 {
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 20px;
     color: #333;
     border-bottom: 2px solid #ccc;
@@ -57,41 +65,39 @@ body {
 
 .materias-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    justify-items: start;
+    align-items: start;
 }
 
 .materia-card {
     background-color: #fff;
     border-radius: 10px;
-    
     display: flex;
     flex-direction: column;
-    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
     overflow: hidden;
-   
+    width: 100%;
+    min-height: 250px;
 }
 
 .materia-card img {
     width: 100%;
-    height: 90px; 
+    height: 150px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
-    
 }
 
 .materia-info {
     flex-grow: 1;
     width: 100%;
-    padding: 10px 15px;
+    padding: 15px 15px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .materia-info .materia-nome {
@@ -99,20 +105,19 @@ body {
     margin: 0 0 5px 0;
     color: #333;
     font-size: 16px;
-    
-
 }
 
 .materia-info .materia-turma {
-    margin: 0; 
+    margin: 0;
     color: #666;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .footer {
     background-color: #c70000;
-    padding: 15px 0;
+    padding: 35px 0;
     width: 100%;
+    margin-top: auto;
 }
 
 .footer-nav {
@@ -136,22 +141,79 @@ body {
 }
 
 .nav-item .fas {
-    font-size: 22px;
-    margin-bottom: 5px;
+    font-size: 30px;
+    margin-bottom: 2px;
 }
 
+@media (max-width: 1200px) {
+    .content {
+        max-width: 90%;
+        margin: 15px auto;
+    }
+    .materias-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    .materia-card img {
+        height: 140px;
+    }
+    .materia-card {
+        min-height: 240px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        max-width: 95%;
+        margin: 15px auto;
+        padding: 0 10px;
+    }
+    .content h1 {
+        font-size: 26px;
+    }
+    .content p {
+        font-size: 17px;
+    }
+    .content h2 {
+        font-size: 22px;
+    }
+    .materias-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 15px;
+    }
+    .materia-card img {
+        height: 120px;
+    }
+    .materia-card {
+        min-height: 220px;
+    }
+}
 
 @media (max-width: 600px) {
+    .header {
+        padding: 10px 15px;
+    }
+    .header-icon .fas.fa-user-circle {
+        font-size: 28px;
+    }
+    .header-menu .fas.fa-bars {
+        font-size: 22px;
+    }
+
     .content {
         padding: 15px;
+        max-width: none;
+        margin: 10px 0;
     }
 
     .content h1 {
         font-size: 24px;
+        line-height: 1.2;
     }
 
     .content p {
         font-size: 16px;
+        line-height: 1.4;
     }
 
     .content h2 {
@@ -161,14 +223,16 @@ body {
     .materias-grid {
         grid-template-columns: 1fr;
         gap: 15px;
+        justify-items: center;
     }
 
     .materia-card {
-        min-height: auto; 
+        min-height: auto;
+        max-width: 90%;
     }
 
     .materia-card img {
-        height: 80px; 
+        height: 80px;
     }
 
     .materia-info {
@@ -190,18 +254,6 @@ body {
     .nav-item .fas {
         font-size: 20px;
     }
-
-    .header {
-        padding: 10px 15px;
-    }
-
-    .header-icon .fas.fa-user-circle {
-        font-size: 28px;
-    }
-
-    .header-menu .fas.fa-bars {
-        font-size: 22px;
-    }
 }
 
 @media (max-width: 375px) {
@@ -222,7 +274,7 @@ body {
     }
 
     .materia-card img {
-        height: 60px; 
+        height: 60px;
     }
 
     .materia-info {
