@@ -5,98 +5,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard do Aluno</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="style.css"> 
-    </head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
     <header class="header">
         <div class="header-icon">
-            <i class="fas fa-user-circle"></i> </div>
+            <i class="fas fa-user-circle" id="open-profile-sidebar"></i>
+        </div>
         <div class="header-menu">
-            <i class="fas fa-bars"></i> </div>
+            <i class="fas fa-bars" id="open-sidebar"></i>
+        </div>
     </header>
 
-    <main class="content">
-        <h1>Olá Aluno!</h1>
-        <p>Seja bem vindo à Escola Estadual De Minas Gerais, a melhor rede de ensino.</p>
+    <div class="main-layout">
+        <main class="content">
+            <h1>Olá Aluno!</h1>
+            <p>Seja bem vindo à Escola Estadual De Minas Gerais, a melhor rede de ensino. Hoje é 24 de junho de 2025.</p>
 
-        <h2>Matérias</h2>
+            <h2>Matérias</h2>
 
-        <div class="materias-grid">
-            <div class="materia-card">
-                <img src="matematica.png" alt="Matemática">
-                <div class="materia-info">
-                    <p class="materia-nome">Matemática</p>
-                    <p class="materia-turma">1º ano C</p>
+            <div class="materias-grid">
+                <div class="materia-card" data-url="materias/matematica.html" data-info="Aulas de cálculo, álgebra e geometria.">
+                    <img src="matematica.png" alt="Matemática">
+                    <div class="materia-info">
+                        <p class="materia-nome">Matemática</p>
+                        <p class="materia-turma">1º ano C</p>
+                    </div>
+                </div>
+
+                <div class="materia-card" data-url="materias/quimica.html" data-info="Estudo dos elementos, reações e compostos.">
+                    <img src="quimica.png" alt="Química">
+                    <div class="materia-info">
+                        <p class="materia-nome">Química</p>
+                        <p class="materia-turma">1º ano C</p>
+                    </div>
+                </div>
+
+                <div class="materia-card" data-url="materias/biologia.html" data-info="Explorando a vida e seus processos.">
+                    <img src="download.png" alt="Biologia">
+                    <div class="materia-info">
+                        <p class="materia-nome">Biologia</p>
+                        <p class="materia-turma">1º ano C</p>
+                    </div>
+                </div>
+
+                <div class="materia-card" data-url="materias/portugues.html" data-info="Gramática, literatura e redação.">
+                    <img src="portuge.png" alt="Português">
+                    <div class="materia-info">
+                        <p class="materia-nome">Português</p>
+                        <p class="materia-turma">1º ano C</p>
+                    </div>
+                </div>
+
+                <div class="materia-card" data-url="materias/fisica.html" data-info="Leis do movimento, energia e universo.">
+                    <img src="fisica.png" alt="Física">
+                    <div class="materia-info">
+                        <p class="materia-nome">Física</p>
+                        <p class="materia-turma">1º ano C</p>
+                    </div>
+                </div>
+
+                <div class="materia-card" data-url="materias/ingles.html" data-info="Desenvolva suas habilidades no idioma.">
+                    <img src="ingles.png" alt="Inglês">
+                    <div class="materia-info">
+                        <p class="materia-nome">Inglês</p>
+                        <p class="materia-turma">1º ano C</p>
+                    </div>
+                </div>
+
+                <div class="materia-card" data-url="materias/historia.html" data-info="Conheça o passado para entender o presente.">
+                    <img src="historia.png" alt="História">
+                    <div class="materia-info">
+                        <p class="materia-nome">História</p>
+                        <p class="materia-turma">1º ano C</p>
+                    </div>
+                </div>
+
+                <div class="materia-card" data-url="materias/geografia.html" data-info="Estude o espaço geográfico e suas transformações.">
+                    <img src="geografia.png" alt="Geografia">
+                    <div class="materia-info">
+                        <p class="materia-nome">Geografia</p>
+                        <p class="materia-turma">1º ano C</p>
+                    </div>
+                </div>
+
+                <div class="materia-card" data-url="materias/redacao.html" data-info="Aprimore sua escrita e argumentação.">
+                    <img src="redação.png" alt="Redação">
+                    <div class="materia-info">
+                        <p class="materia-nome">Redação</p>
+                        <p class="materia-turma">1º ano C</p>
+                    </div>
                 </div>
             </div>
+        </main>
 
-            <div class="materia-card">
-                <img src="quimica.png" alt="Matemática">
-                <div class="materia-info">
-                    <p class="materia-nome">Química</p>
-                    <p class="materia-turma">1º ano C</p>
-                </div>
+        <div class="task-list-container">
+            <div class="task-list-header">
+                <h3>Lista de Tarefas</h3>
+                <button id="clear-completed-tasks" title="Limpar tarefas concluídas"><i class="fas fa-check-double"></i></button>
             </div>
-
-            <div class="materia-card">
-                <img src="download.png" alt="Matemática">
-                <div class="materia-info">
-                    <p class="materia-nome">Biologia</p>
-                    <p class="materia-turma">1º ano C</p>
-                </div>
+            <div class="task-input-container">
+                <input type="text" id="new-task-input" placeholder="Adicionar nova tarefa...">
+                <button id="add-task-btn"><i class="fas fa-plus"></i></button>
             </div>
-
-            <div class="materia-card">
-                <img src="portuge.png" alt="Português">
-                <div class="materia-info">
-                    <p class="materia-nome">Português</p>
-                    <p class="materia-turma">1º ano C</p>
-                </div>
-            </div>
-
-            <div class="materia-card">
-                <img src="fisica.png" alt="Português">
-                <div class="materia-info">
-                    <p class="materia-nome">Física</p>
-                    <p class="materia-turma">1º ano C</p>
-                </div>
-            </div>
-
-            <div class="materia-card">
-                <img src="ingles.png" alt="Português">
-                <div class="materia-info">
-                    <p class="materia-nome">Inglês</p>
-                    <p class="materia-turma">1º ano C</p>
-                </div>
-            </div>
-
-            <div class="materia-card">
-                <img src="historia.png" alt="História">
-                <div class="materia-info">
-                    <p class="materia-nome">História</p>
-                    <p class="materia-turma">1º ano C</p>
-                </div>
-            </div>
-
-            <div class="materia-card">
-                <img src="geografia.png" alt="Geografia">
-                <div class="materia-info">
-                    <p class="materia-nome">Geografia</p>
-                    <p class="materia-turma">1º ano C</p>
-                </div>
-            </div>
-
-            <div class="materia-card">
-                <img src="redação.png" alt="Ciência">
-                <div class="materia-info">
-                    <p class="materia-nome">Redação</p>
-                    <p class="materia-turma">1º ano C</p>
-                </div>
-            </div>
-
+            <ul id="task-list">
+            </ul>
         </div>
-    </main>
+    </div>
+
+    <aside class="sidebar" id="main-sidebar">
+        <div class="sidebar-header">
+            <h3>Menu</h3>
+            <button class="close-sidebar" id="close-main-sidebar">&times;</button>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="#">Minhas Notas</a></li>
+                <li><a href="#">Calendário Escolar</a></li>
+                <li><a href="#">Comunicados</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="#" id="open-profile-from-menu">Perfil</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-footer">
+            <p>&copy; 2025 Escola Estadual</p>
+        </div>
+    </aside>
+
+    <aside class="profile-sidebar" id="profile-sidebar">
+        <div class="profile-sidebar-header">
+            <h3>Meu Perfil</h3>
+            <button class="close-profile-sidebar">&times;</button>
+        </div>
+        <div class="profile-sidebar-content">
+            <div class="user-avatar">
+                <i class="fas fa-user-circle"></i>
+            </div>
+            <h4>[Nome do Aluno]</h4>
+            <p>Turma: 1º ano C</p>
+            <p>Email: aluno@escolaestadual.com</p>
+            <p>Data de Nascimento: DD/MM/AAAA</p>
+
+            <hr>
+
+            <div class="profile-actions">
+                <button class="profile-button"><i class="fas fa-edit"></i> Editar Perfil</button>
+                <button class="profile-button"><i class="fas fa-key"></i> Alterar Senha</button>
+                <button class="profile-button"><i class="fas fa-bell"></i> Gerenciar Notificações</button>
+                <button class="profile-button logout-button"><i class="fas fa-sign-out-alt"></i> Sair</button>
+            </div>
+        </div>
+        <div class="profile-sidebar-footer">
+            <p>Último acesso: 24 de junho de 2025</p>
+        </div>
+    </aside>
+
+    <div class="overlay" id="main-overlay"></div>
 
     <footer class="footer">
         <nav class="footer-nav">
@@ -114,6 +179,8 @@
             </a>
         </nav>
     </footer>
+
+    <script src="func.js"></script>
 
 </body>
 </html>
