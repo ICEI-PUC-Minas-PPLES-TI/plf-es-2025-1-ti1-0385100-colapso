@@ -1,31 +1,30 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: COLAPSO
 authors:
-  - family-names: Diego Albergaria Ferreira Araujo
-    given-names: 
-  - family-names: Gabriel Lucas de Almeida Rocha
-    given-names: 
-  - family-names: Guilherme Henrique Costa Alves
-    given-names: Dashboard
-  - family-names: Ilan Cohen
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
-  - name-suffix: Professor
+  - family-names: Araujo
+    given-names: Diego Albergaria Ferreira
+  - family-names: Rocha
+    given-names: Gabriel Lucas de Almeida
+  - family-names: Alves
+    given-names: Guilherme Henrique Costa
+  - family-names: Santana
+    given-names: Ilan Cohen Bouissou
+  - family-names: Tavares
+    given-names: Cleiton Silva
+    name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
+  - family-names: Carneiro
+    given-names: Rommel Vieira
+    name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
 keywords:
-  - 
-  - 
-repository-code: 
+  - educação pública
+  - escolas públicas
+  - infraestrutura escolar
+  - precariedade
+  - políticas educacionais
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2025-1-ti1-0385100-colapso
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2022-07-14
